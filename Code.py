@@ -1,4 +1,6 @@
 
+############### 1 ############################
+#potential 1st question code
 #pandas to read the CSV file and calculate yearly forfeiture totals
 import pandas as pd 
 
@@ -41,3 +43,6 @@ plt.tight_layout()
 
 #completed line graph
 plt.show()
+
+
+################# 2 ########################
