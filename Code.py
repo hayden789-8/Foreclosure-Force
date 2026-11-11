@@ -13,13 +13,6 @@ from pathlib import Path
 file_path=Path(__file__).resolve().parent/"Data"/"state_of_iowa_forfeiture_cases_957_rows.csv"
 data=pd.read_csv(file_path)
 
-
-
-
-
-
-
-
 #keep cases closed from 2017-2025 to compare,removes 2003/2027 from the graph
 data=data[(data["fiscal_year_closed"]>=2017)&(data["fiscal_year_closed"]<=2026)]
 
