@@ -44,6 +44,8 @@ Total Money Forfeited by Year:
 2024: $1,626,563
 2025: $1,325,289
 2026: $1,437,166
+
+
  <img width="479" height="407" alt="image" src="https://github.com/user-attachments/assets/9a16ce5d-3bac-4dda-b508-a25d76717615" />
 
  
