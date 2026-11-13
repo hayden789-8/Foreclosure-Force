@@ -32,7 +32,7 @@ In this section, you will go over the methods (with metrics, tools, and plots) t
 
 Results (Answers to the Questions):
 Question 1:
- Results-
+Results-
 Total Money Forfeited by Year:
 2017: $1,681,501
 2018: $1,798,930
@@ -45,8 +45,10 @@ Total Money Forfeited by Year:
 2025: $1,325,289
 2026: $1,437,166
  <img width="479" height="407" alt="image" src="https://github.com/user-attachments/assets/9a16ce5d-3bac-4dda-b508-a25d76717615" />
-  Answer to Question-
-  Throughout the years the total money forfeited per year has fluctuated but stayed relatively the same within about $1,000,000. There was an overall decrease from 2017($1,681,501) to 2026($1,437,166). The lowest total money forfeited per year was in 2025 with a total of $1,325,289 and the highest total money forfeited per year was in 2022 with a total of $2,455,855.
+
+ 
+Answer to Question-
+Throughout the years the total money forfeited per year has fluctuated but stayed relatively the same within about $1,000,000. There was an overall decrease from 2017($1,681,501) to 2026($1,437,166). The lowest total money forfeited per year was in 2025 with a total of $1,325,289 and the highest total money forfeited per year was in 2022 with a total of $2,455,855.
 
 Conclusions:
 
