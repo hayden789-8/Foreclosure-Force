@@ -81,6 +81,18 @@ Total Money Forfeited by Year:
 
 2026: $1,437,166
 
+Year	Sum of Money Forfeited
+2017	$1,681,501
+2018	$1,798,930
+2019	$1,938,900
+2020	$1,377,436
+2021	$1,519,558
+2022	$2,455,855
+2023	$1,714,183
+2024	$1,626,563
+2025	$1,325,289
+2026	$1,437,166
+
 
  <img width="479" height="407" alt="image" src="https://github.com/user-attachments/assets/9a16ce5d-3bac-4dda-b508-a25d76717615" />
 
