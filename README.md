@@ -1,4 +1,6 @@
-Project Title : Iowa Forfeiture Trends and Patterns 
+**Project Title**:Iowa Forfeiture Trends and Patterns, 
+**Team**: The Forfeiture Force
+Group 26
 
 
 Team Name and Names of the Contributors: The Forfeiture Force
