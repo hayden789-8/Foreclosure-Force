@@ -49,4 +49,43 @@ plt.show()
 
 
 ################# 2 #########################
-#print (total_money_forfeited))
+
+#compare the forfeitere amounts between different counties in Iowa
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# 1.get data set from file
+df = pd.read_csv("Data/state_of_Iowa_forfeiture_cases_957_rows.csv")
+
+# 2. make sure columns names are correct for forfeiture amounts
+print(df.columns)
+
+# 3. group by county and sum the forfeiture amounts
+county_totals = (
+    df.groupby("county_name")["total_money_forfeited"].sum().reset_index()
+)
+
+# Optional: Sort values to show top counties or make the chart cleaner
+county_forfeitures = (
+    df.groupby("county_name")["total_money_forfeited"].sum().reset_index()
+)
+ 
+#4.make bar graph to compare forfeiture amounts by county
+plt.figure(figsize=(12, 6))
+plt.bar(
+    county_forfeitures["county_name"],
+    county_forfeitures["total_money_forfeited"],
+    color="steelblue",
+    edgecolor="black",
+)
+
+#5.edit graph title and labels
+plt.title("Total Money Forfeited by County in Iowa")
+plt.xlabel("County")
+plt.ylabel("Total Money Forfeited ($ in Millions)")
+plt.xticks(rotation=45, ha="right") # rotate for readability
+plt.tight_layout()
+
+# 6. Save and display the plot
+plt.savefig("county_forfeitures_bar_graph.png", dpi=300)
+plt.show()
