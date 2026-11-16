@@ -89,3 +89,4 @@ plt.tight_layout()
 # 6. Save and display the plot
 plt.savefig("county_forfeitures_bar_graph.png", dpi=300)
 plt.show()
+
