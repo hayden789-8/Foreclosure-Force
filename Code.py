@@ -58,7 +58,7 @@ import pandas as pd
 df = pd.read_csv("Data/state_of_Iowa_forfeiture_cases_957_rows.csv")
 
 # 2. make sure columns names are correct for forfeiture amounts
-print(df.columns)
+#print(df.columns)
 
 # 3. group by county and sum the forfeiture amounts
 county_forfeitures = (
@@ -93,4 +93,9 @@ plt.savefig("county_forfeitures_bar_graph.png", dpi=300)
 
 
 #################Task 3#########################
+#Put task 3 code before the plt.show() command to display the graph
+
+
+
+
 plt.show()
